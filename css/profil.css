@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+.profil-content {
+    display: flex;
+}
+.profil-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.details {
+    flex: 1;
+}
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #ffff;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ffff
+}
+tbody tr:hover {
+    background-color: #ffff;
+}

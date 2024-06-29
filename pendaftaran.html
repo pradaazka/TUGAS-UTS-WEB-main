@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="indonesia">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Halaman Pendaftaran</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profil.html">Profile</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="jatwal.html">Jadwal Perkuliahan</a></li>
+                <li><a href="hobi.html">Hobby</a></li>
+                <li><a href="pendaftaran.html">Pendaftaran</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Form Pendaftaran</h2>
+            <div id="formContainer">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" required></textarea><br><br>
+                
+                <label for="telepon">No Telepon:</label>
+                <input type="tel" id="telepon" name="telepon" required><br><br>
+
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas" required><br><br>
+
+                <label for="prodi">Prodi:</label>
+                <input type="text" id="prodi" name="prodi" required><br><br>
+                
+                <input type="submit" value="Daftar" id="btnDaftar">
+                <input type="reset" value="Batal" class="cancel-button">
+            </div>
+            <div id="dataMahasiswa" style="display: none;"> 
+            </div>
+        </div>
+    </main>
+    <footer>    
+        <h2>Laduni Prada_TI</h2>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

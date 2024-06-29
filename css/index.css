@@ -1,0 +1,102 @@
+/* CSS untuk halaman depan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    width: 400px;
+    text-align: center;
+    border: 2px solid #007bff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: black;
+}
+
+#quizTitle {
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.options button {
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #0056b3;
+}
+
+#nextButton {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.info-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.info-container table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.info-container th, .info-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.info-container th {
+    background-color: #007bff;
+    color: white;
+}
+
+.info-container td {
+    background-color: #f8f9fa;
+}
+
+.info-container td:first-child {
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+}

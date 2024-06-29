@@ -1,0 +1,64 @@
+#hobby {
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+.hobby-content {
+    background-color: #262626;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.hobby-content:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+.gambar-profil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.description {
+    padding: 30px;
+    flex: 1;
+}
+.description h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+.description h3 {
+    font-size: 24px;
+    color: #3498db;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.description ul {
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.description ul li {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .hobby-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .gambar-profil {
+        border-radius: 20px 20px 0 0;
+    }
+}

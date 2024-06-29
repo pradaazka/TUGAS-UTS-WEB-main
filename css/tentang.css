@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+header {
+    background-color: #2980b9; 
+    color: #fff; 
+    padding: 20px; 
+    align-items: center; 
+}
+
+.logo {
+    max-width: 100px; 
+    max-height: 100px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+main {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+main h3 {
+    font-size: 24px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.prestasi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.prestasi-item {
+    flex: 1;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.prestasi-item h2 {
+    font-size: 18px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.prestasi-item p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+}
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: orangered;
+}
+
+.contact-info img {
+    width: 50px;
+    height: 50px; 
+    margin-right: 2
+    0px;
+}
